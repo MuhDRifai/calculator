@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tugas Akhir | Calculator App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <main class="main">
+            <!-- -->
+            <div class="calc-header">
+                <h1 class="title">calculator</h1>
+                <p class="theme-title">theme</p>
+                <div class="toggle-section">
+                    <div class="toggle-numbers">
+                        <div class="theme-1">1</div>
+                        <div class="theme-2">2</div>
+                        <div class="theme-3">3</div>
+                    </div>
+                    <input type="range" min="1" max="3" value="1" class="slider" id="theme" />
+                </div>
+            </div>
+            <!-- -->
+            <div class="calc-screen">
+                <div class="screen-input"></div>
+            </div>
+            <!-- -->
+            <section class="calc-keypad">
+                <!--nums-->
+                <button type="button" id="key0" class="btn" value="0">0</button>
+                <button type="button" id="key1" class="btn" value="1">1</button>
+                <button type="button" id="key2" class="btn" value="2">2</button>
+                <button type="button" id="key3" class="btn" value="3">3</button>
+                <button type="button" id="key4" class="btn" value="4">4</button>
+                <button type="button" id="key5" class="btn" value="5">5</button>
+                <button type="button" id="key6" class="btn" value="6">6</button>
+                <button type="button" id="key7" class="btn" value="7">7</button>
+                <button type="button" id="key8" class="btn" value="8">8</button>
+                <button type="button" id="key9" class="btn" value="9">9</button>
+                <!-- ops -->
+                <button type="button" id="keyPlus" class="btn" value="+">+</button>
+                <button type="button" id="keyMinus" class="btn" value="-">-</button>
+                <button type="button" id="keyTimes" class="btn" value="*">x</button>
+                <button type="button" id="keyDivide" class="btn" value="/">/</button>
+                <button type="button" id="keyDot" class="btn" value=".">.</button>
+                <!-- funcs -->
+                <button type="button" id="keyDel" class="btn" value="del">Del</button>
+                <button type="button" id="keyEquals" class="btn large-keys" value="=">=</button>
+                <button type="button" id="keyReset" class="btn large-keys" value="reset">Reset</button>
+            </section>
+            <!-- -->
+        </main>
+    </div>
+    <!-- -->
+    <script src="script.js"></script>
+</body>
+
+</html>

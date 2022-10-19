@@ -1,0 +1,19 @@
+:root {
+  /* Theme 2 */
+  --main-bg-color-1: hsl(0, 0%, 90%);
+  --keypad-bg-color-1: hsl(0, 5%, 81%);
+  --screen-bg-color-1: hsl(0, 0%, 93%);
+
+  --keys-bg-color-1: hsl(185, 42%, 37%);
+
+  --keys-shadow-1: hsl(185, 58%, 25%);
+  --keys-bg-color-equals-1: hsl(25, 98%, 40%);
+  --keys-shadow-equals-1: hsl(25, 99%, 27%);
+  --keys-bg-grey-1: hsl(45, 7%, 89%);
+  --keys-shadow-grey-1: hsl(35, 11%, 61%);
+
+  --text-color-title-1: hsl(60, 10%, 19%);
+  --text-screen: rgb(32, 32, 32);
+  --text-color-keys: hsl(60, 10%, 19%);
+  --text-color-white-1: rgb(255, 255, 255);
+}

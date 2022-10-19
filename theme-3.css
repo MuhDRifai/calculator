@@ -1,0 +1,17 @@
+:root {
+  --main-bg-color-1: hsl(268, 75%, 9%);
+  --keypad-bg-color-1: hsl(268, 71%, 12%);
+  --screen-bg-color-1: hsl(268, 71%, 12%);
+
+  --keys-bg-color-1: hsl(281, 89%, 26%);
+  --keys-shadow-1: hsl(285, 91%, 52%);
+  --keys-bg-color-equals-1: hsl(176, 100%, 44%);
+  --keys-shadow-equals-1: hsl(177, 92%, 70%);
+  --keys-bg-grey-1: hsl(268, 47%, 21%);
+  --keys-shadow-grey-1: hsl(290, 70%, 36%);
+
+  --text-color-title-1: hsl(52, 100%, 62%);
+  --text-screen: hsl(52, 100%, 62%);
+  --text-color-keys: hsl(52, 100%, 62%);
+  --text-color-white-1: rgb(255, 255, 255);
+}
